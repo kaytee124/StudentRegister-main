@@ -1,0 +1,45 @@
+.list-header {
+  display: flex;
+  margin: 2rem 0;
+  justify-content: space-between;
+}
+
+.list-header h2 {
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  width: 33.33%; /* Adjust this value according to your preference */
+}
+
+table th {
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid #eef0f3;
+}
+
+thead td {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  background: grey;
+  text-align: start;
+  padding: 15px;
+}
+
+tbody tr td {
+  padding: 10px 15px;
+}
+
+.table-container {
+  overflow: auto;
+  max-height: 400px; /* Adjust the max-height as needed */
+}
+
+/*# sourceMappingURL=List.css.map */
